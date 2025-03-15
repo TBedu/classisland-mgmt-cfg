@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>页面未找到</title>
+    <style>
+        /* 复用 index.html 的样式 */
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --light: #ecf0f1;
+            --transition: all 0.3s ease;
+        }
+
+        body {
+            background: #f8f9fa;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+
+        .error-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .error-code {
+            font-size: 8rem;
+            font-weight: 700;
+            color: var(--secondary);
+            text-shadow: 3px 3px 0 rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+
+        .error-message {
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-bottom: 2rem;
+        }
+
+        .error-description {
+            color: #7f8c8d;
+            margin-bottom: 3rem;
+            line-height: 1.8;
+        }
+
+        .home-link {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: var(--secondary);
+            color: white;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .home-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(52,152,219,0.3);
+        }
+
+        @media (max-width: 768px) {
+            .error-code {
+                font-size: 5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <div class="error-code">404</div>
+        <h2 class="error-message">哎呀，页面迷路了！</h2>
+        <p class="error-description">
+            我们似乎找不到您要访问的页面。<br>
+            请检查网址是否正确，或返回主页重新开始旅程。
+        </p>
+        <a href="/" class="home-link">返回首页 →</a>
+    </div>
+</body>
+</html>

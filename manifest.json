@@ -1,4 +1,24 @@
 {
     "ServerKind": 0,
-    "OrganizationName": "电子科技大学实验中学（天骄校区）"
-}
+    "OrganizationName": "电子科技大学实验中学（天骄校区）",
+    "ClassPlanSource": {
+        "Value": "https://cimc.tbedu.top/{id}/ClassPlans.json",
+        "Version": 1
+    },
+    "TimeLayoutSource": {
+        "Value": "https://cimc.tbedu.top/{id}/TimeLayouts.json",
+        "Version": 1
+    },
+    "SubjectsSource": {
+        "Value": "https://cimc.tbedu.top/{id}/Subjects.json",
+        "Version": 1
+    },
+    "DefaultSettingsSource": {
+        "Value": "https://cimc.tbedu.top/{id}/Settings.json",
+        "Version": 1
+    },
+    "PolicySource": {
+        "Value": "https://cimc.tbedu.top/{id}/Policy.json",
+        "Version": 1
+    }
+  }
