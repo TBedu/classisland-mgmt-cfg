@@ -13,10 +13,6 @@
         "Value": "https://cimc.tbedu.top/{id}/Subjects.json",
         "Version": 1
     },
-    "DefaultSettingsSource": {
-        "Value": "https://cimc.tbedu.top/{id}/Settings.json",
-        "Version": 1
-    },
     "PolicySource": {
         "Value": "https://cimc.tbedu.top/{id}/Policy.json",
         "Version": 1
