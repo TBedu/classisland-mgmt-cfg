@@ -15,6 +15,6 @@
     },
     "PolicySource": {
         "Value": "https://cimc.tbedu.top/{id}/Policy.json",
-        "Version": 1
+        "Version": 2
     }
   }
